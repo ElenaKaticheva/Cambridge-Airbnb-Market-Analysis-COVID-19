@@ -11,7 +11,7 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 - calendar - Provides details about booking for the next year by listing. Four attributes in total including listing_id (discrete), date (datetime), available (categorical) and price (continuous).
 - reviews - Detailed reviews given by the guests. Key attributes include date (datetime), listing_id (discrete), reviewer_id (discrete) and comment (textual).
 
-## Data Preprocessing
+## Data Preprocessing & Exploratory Data Analysis
 - Merge datasets for each month to one csv file for listings, calendar, reviews
 - Transform the date column to an apropriate format - datetime
 - Remove $ sign from the price column 
@@ -21,7 +21,6 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 - Impute missing values using mean 
 - Transfrom the host_is_superhost boolean True/False values to 1 and 0
 
-## Exploratory Data Analysis
 ![](pic/pic1.png)
 ![](pic/pic2.png)
 ![](pic/pic3.png)
@@ -30,3 +29,28 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 ![](pic/pic6.png)
 ![](pic/pic7.png)
 ![](pic/pic8.png)
+![](pic/pic9.png)
+![](pic/pic10.png)
+
+## Preparing the data for modeling
+- Cleaning all the numerical data
+- Preprocessing the categorical data. Re-encoding binary features by getting dummies for each unique value
+- Drop features not needed for the further analysis
+
+## Data Modeling
+The goal was to create a model to illustrate what are the features that influence the price in Cambridge Airbnb 
+- Split the data into test/train data sets
+- Normalized the data to ensure the variables were interpreted correctly
+- Predicting and obtaining a summary of the Ordinary least squares
+![](pic/pic11.png)
+![](pic/pic12.png)
+- Principal component analysis (PCA)
+![](pic/pic13.png)
+- Random Forest Approach
+![](pic/pic14.png)
+
+## Conclusions
+-	COVID-19 affected Airbnb as any other businesses. Prices slowly are increasing but not at the level before the pandemic
+-	A seasonality is observed in the price of the listings 
+-	Private rooms and neighborhoods are highly significant for price
+-	Number of bedrooms, accommodates , reviews, number of beds, entire apartment, private room, and East Cambridge neighborhood have more impact on predicting the price of Cambridge Airbnb listings by either increasing or decreasing the rental price
