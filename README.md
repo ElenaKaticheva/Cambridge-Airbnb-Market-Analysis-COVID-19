@@ -29,8 +29,6 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 ![](pic/pic6.png)
 ![](pic/pic7.png)
 ![](pic/pic8.png)
-![](pic/pic9.png)
-![](pic/pic10.png)
 
 ## Preparing the data for modeling
 - Cleaning all the numerical data
@@ -40,7 +38,7 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 ## Data Modeling
 The goal was to create a model to illustrate what are the features that influence the price in Cambridge Airbnb 
 - Split the data into test/train data sets
-- Normalized the data to ensure the variables were interpreted correctly
+- Normalize the data to ensure the variables were interpreted correctly
 - Predicting and obtaining a summary of the Ordinary least squares
 ![](pic/pic11.png)
 ![](pic/pic12.png)
@@ -48,6 +46,10 @@ The goal was to create a model to illustrate what are the features that influenc
 ![](pic/pic13.png)
 - Random Forest Approach
 ![](pic/pic14.png)
+- Text Mining: Convert words to lower case; Remove quotation marks and digits; Remove punctuation; Normalize punctuation; Tokenization and padding; Remove stop words
+
+![](pic/pic9.png)
+![](pic/pic10.png)
 
 ## Conclusions
 -	COVID-19 affected Airbnb as any other businesses. Prices slowly are increasing but not at the level before the pandemic
