@@ -1,5 +1,5 @@
 # Cambridge Airbnb Market Analysis During COVID-19
-![](pic/Picture1.jpg)
+![](pic/Picture1.png)
 The COVID-19 pandemic has disrupted many businesses and industries, including but not limited to the hospitality and aviation industries. The number of lodging reservations have gone down rapidly and significantly since March 2020. This project analyzes Airbnb data from Cambridge, MA and explore and investigate this market in the past 12 months.
 Airbnb, Inc. is an American vacation rental online marketplace company accessible to consumers on its website or via an app.
 The main objective of this project is to analyze the data to find any trend, seasonality, neighborhood differences, etc. in the market chosen, and to propose indicator(s) to quantify listings ‘performance; as well as to provide recommendations such as additional data sources that can be considered for future analysis.
@@ -22,3 +22,11 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 - Transfrom the host_is_superhost boolean True/False values to 1 and 0
 
 ## Exploratory Data Analysis
+![](pic/pic1.png)
+![](pic/pic2.png)
+![](pic/pic3.png)
+![](pic/pic4.png)
+![](pic/pic5.png)
+![](pic/pic6.png)
+![](pic/pic7.png)
+![](pic/pic8.png)
