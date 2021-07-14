@@ -27,6 +27,7 @@ Data was acquired directly from the Airbnb website (http://insideairbnb.com/get-
 ![](pic/pic4.png)
 ![](pic/pic5.png)
 ![](pic/pic6.png)
+We created a list of Cambridge neighborhoods and used  geojson for mapping. Then we calculated the average price in each neighborhood and used geomap to answer the question 'What is the mean price for each neighbourhood?'
 ![](pic/pic7.png)
 ![](pic/pic8.png)
 
